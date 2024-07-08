@@ -78,3 +78,54 @@
     border-bottom: 2px solid white;
     background-color: rgba(0, 0, 0, 0.6);
 }
+
+.main-content {
+    padding: 32px;
+
+    background-color: gainsboro;
+}
+
+.content-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.main-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    padding: 28px;
+
+    background-color: white;
+}
+
+.post-header {
+    padding: 8px;
+
+    border-bottom: 2px solid black;
+    background-color: rgb(219, 223, 223);
+}
+
+.post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.post-content a {
+    display: block;
+
+    width: fit-content;
+    padding: 12px;
+
+    border: 1px solid grey;
+    border-radius: 12px;
+    background-color: rgb(179, 179, 179);
+}
