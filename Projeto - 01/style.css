@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    height: 500px;
+
+    background-image: url('Assets/bg-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.main-header .header-content {
+    display: flex;
+    flex-direction: column;
+
+    padding: 24px;
+}
+
+.header-menu {
+    align-self: flex-end;
+
+    margin-right: 4%;
+}
+
+.header-list {
+    display: flex;
+    gap: 24px;
+
+    list-style: none;
+}
+
+.header-item {
+    padding: 16px;
+
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.header-item:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+
+    transition: 0.8s;
+}
+
+.header-item a {
+    color: white;
+    text-decoration: none;
+}
